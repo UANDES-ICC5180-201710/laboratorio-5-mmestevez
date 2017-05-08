@@ -1,8 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<%= render 'navbar' %>
+
 <h1>Assignments</h1>
 
-<%= render 'list', assignments: @assignments %>
+<%= render 'assignments/list', assignments: @course.assignments %>
 
 <br>
 
